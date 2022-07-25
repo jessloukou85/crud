@@ -1,0 +1,8 @@
+.navbar{
+    height: 50px;
+    background-color: blueviolet;
+}
+.navbar .nav-item{
+    margin: 0px;
+    padding: 0px;
+}
