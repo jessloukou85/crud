@@ -1,0 +1,3 @@
+use service;
+
+create table Departement(id_dpt int auto_increment, nom_dpt varchar(20) not null, id_empl int, constraint pk_departement primary key (id_dpt), constraint fk_depart_employe foreign key (id_empl) references employe (id_empl));

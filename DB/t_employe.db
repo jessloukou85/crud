@@ -1,0 +1,5 @@
+create database service;
+
+use service;
+
+create table employe (id_empl int auto_increment, last_name varchar(10), first_name varchar(10), email varchar(20),gender varchar(10), constraint pk_employe primary key (id_empl));
